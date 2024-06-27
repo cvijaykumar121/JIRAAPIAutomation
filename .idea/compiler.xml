@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="APIAutomationFramework" />
+        <module name="JIRA_API_Automation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="APIAutomation" target="17" />
+      <module name="APIAutomationFramework" target="17" />
       <module name="AutomationFramework" target="17" />
     </bytecodeTargetLevel>
   </component>

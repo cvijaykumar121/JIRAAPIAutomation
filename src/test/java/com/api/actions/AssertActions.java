@@ -34,7 +34,5 @@ public class AssertActions {
 
     public void verifyResponseBody(boolean actual, boolean expected, String description) {
         assertEquals(actual, expected, description);
-
     }
-
 }

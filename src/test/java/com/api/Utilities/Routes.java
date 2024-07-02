@@ -1,4 +1,4 @@
-package com.api.Endpoints;
+package com.api.Utilities;
 
 public class Routes {
 

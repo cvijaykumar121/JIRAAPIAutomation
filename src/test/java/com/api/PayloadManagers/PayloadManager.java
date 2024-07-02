@@ -21,4 +21,32 @@ public class PayloadManager {
         }
         return payload;
     }
+
+    public String createProjectCategoryPayloadWithMissingNameField() {
+        objectMapper = new ObjectMapper();
+        ProjectCategory projectCategory = new ProjectCategory();
+        projectCategory.setDescription("This project category is for Software Testing");
+        String payload = null;
+        try {
+            payload = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(projectCategory);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return payload;
+    }
+
+    public String createProjectCategoryPayloadWithEmptyNameField() {
+        objectMapper = new ObjectMapper();
+        ProjectCategory projectCategory = new ProjectCategory();
+        projectCategory.setDescription("This project category is for Software Testing");
+        projectCategory.setName("");
+        String payload = null;
+        try {
+            payload = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(projectCategory);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return payload;
+    }
+
 }

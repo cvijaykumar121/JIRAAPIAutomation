@@ -7,8 +7,5 @@ WORKDIR /app
 # Copy the packaged jar file into the container at /app
 COPY target/JiraAPIAutomation-1.0.0.jar .
 
-# Expose the application port (optional, replace 8080 with your app's port if different)
-EXPOSE 8080
-
 # Run the application
 CMD ["java", "-jar", "JiraAPIAutomation-1.0.0.jar"]

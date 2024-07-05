@@ -6,6 +6,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="Simple Grocery API">
         <classes>
+            <class name="com.api.Testcases.ProjectCategories.CreateProjectCategoryTests"/>
             <class name="com.api.Testcases.ProjectCategories.GetAllProjectCategoriesTests"/>
         </classes>
     </test>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.api.Listeners.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Simple Grocery API(failed)" verbose="0">
+    <classes>
+      <class name="com.api.Testcases.ProjectCategories.CreateProjectCategoryTests">
+        <methods>
+          <include name="createProjectCategoryWithValidData"/>
+          <include name="setUpConfig"/>
+        </methods>
+      </class> <!-- com.api.Testcases.ProjectCategories.CreateProjectCategoryTests -->
+      <class name="com.api.Testcases.ProjectCategories.GetAllProjectCategoriesTests">
+        <methods>
+          <include name="setUpConfig"/>
+          <include name="getAllProjectCategoriesWithValidData"/>
+        </methods>
+      </class> <!-- com.api.Testcases.ProjectCategories.GetAllProjectCategoriesTests -->
+    </classes>
+  </test> <!-- Simple Grocery API(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

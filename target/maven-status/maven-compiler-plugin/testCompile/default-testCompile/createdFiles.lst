@@ -1,0 +1,12 @@
+com\api\Endpoints\ProjectCategory.class
+com\api\Basetest\BaseTest.class
+com\api\Testcases\ProjectCategories\CreateProjectCategoryTests.class
+com\api\Payloads\AuthPayload.class
+com\api\Utilities\GlobalVariables.class
+com\api\Testcases\ProjectCategories\GetAllProjectCategoriesTests.class
+com\api\Utilities\Routes.class
+com\api\Listeners\CustomListener.class
+com\api\PayloadManagers\PayloadManager.class
+com\api\Utilities\ExtentManager.class
+com\api\actions\AssertActions.class
+com\api\Payloads\ProjectCategory.class

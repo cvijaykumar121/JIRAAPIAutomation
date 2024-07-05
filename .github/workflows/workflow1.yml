@@ -24,7 +24,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build . -t kcvijay121/jiraApi-automation:latest
+        run: docker build . -t kcvijay121/jira-api-automation:latest
 
       - name: Push Docker image
         run: docker push kcvijay121/jiraApi-automation:latest
